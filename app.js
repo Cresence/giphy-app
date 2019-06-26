@@ -1,4 +1,4 @@
-// setTimeout(annouce, 1000);
+setTimeout(annouce, 1000);
 function annouce(){
   alert('Current ver. best viewed in full screen!');
 }
