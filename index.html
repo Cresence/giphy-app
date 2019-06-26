@@ -11,19 +11,28 @@
 <body>
 
   <div class="container">
-    <h1>Gif Search!</h1>
+    <h1>Random Themed Gif Search!</h1>
 
     <!-- Rendered Buttons will get Dumped Here  -->
+    <p id="btn-view-title">Your Selections!</p>
     <div id="buttons-view"></div>
 
+    <p id="btn-view-fav">Your Favorites!</p>
+    <div id="fav-view"></div>
+
+
     <form id="gif-form">
-      <label for="gif-input">Add a gif, Yo!</label>
+      <label for="gif-input">Topics</label>
+      <br>
       <input type="text" id="gif-input">
       <br>
-
       <!-- Button triggers new gif to be added -->
-      <input id="add-gif" type="submit" value="Add a gif, Yo!">
+      <input id="add-gif" type="submit" value="Add to gif, Yo!">
+      <button id="clear">Clear it!</button>
+      <button id="fav">Add to Favorites!</button>
     </form>
+    
+
 
     <!-- gifs will Get Dumped Here -->
     <div id="gifs-view"></div>

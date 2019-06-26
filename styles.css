@@ -1,6 +1,135 @@
+body {
+  background-color: #000000;
+}
+.container {
+  max-width: 99%;
+  max-height: 90%;
+}
 button,
 div,
 form,
 input {
   margin: 10px;
+  color: #ffffff;
+  /* position: absolute; */
+  left: 40%;
+}
+#buttons-view{
+  position: absolute;
+  width: 33%;
+  height: 200px;
+  left: 1%;
+}
+#fav-view{
+  position: absolute;
+  width: 33%;
+  height: 200px;
+  right: 0px;
+  margin-left: auto;
+}
+#btn-view-title{
+  color: #ffffff;
+  position: absolute;
+  left: 10%;
+  font-weight: bolder;
+  outline-style: ridge;
+  background-color: blue;
+  padding: 5px;
+}
+#btn-view-fav {
+  color: #ffffff;
+  position: absolute;
+  font-weight: bolder;
+  outline-style: ridge;
+  background-color: blue;
+  padding: 5px;
+  margin-left: 30%;
+}
+#clear {
+  margin-left: 30px;
+  top: -10px;
+  padding: 10px;
+  color: #000000;
+  width: 102.81px;
+}
+#add-gif {
+  color: #000000;
+  padding: 10px;
+  /* margin-top: 10px; */
+}
+#gifs-view {
+  position: relative;
+  top: 275px;
+  left: 46.5%;
+  width: 1%;
+  max-height: 1080px;
+  margin-right: 0px;
+}
+#fav {
+  color: #000000;
+  padding: 10px;
+  position: absolute;
+  left: 23%;
+  top: 100%;
+}
+img {
+  position: static;
+  padding: 1px;
+  outline-style: ridge;
+  outline-width: 6px;
+  background-color: #000000;
+  width: 50px;
+  height: 50px;
+}
+.gif-rating {
+  margin-left: 50px;
+  font-weight: bold;
+}
+#newGif-1,
+#newGif-2,
+#newGif-3,
+#newGif-4,
+#newGif-5,
+#newGif-6,
+#newGif-7,
+#newGif-8,
+#newGif-9,
+#newGif-10{
+  position: relative;
+  bottom: 1px;
+  width: 70px;
+}
+.gif {
+  position: relative;
+  bottom: 1px;
+  width: 70px;
+}
+p {
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+}
+h1 {
+  position: absolute;
+  left: 41%;
+  font-weight: bolder;
+  outline-style: ridge;
+  background-color: blue;
+  padding: 30px;
+}
+#gif-form {
+  position: absolute;
+  left: 40%;
+  top: 10%;
+}
+label {
+  margin-left: 105px;
+}
+#gif-input {
+  width: 250px;
+  color: #000000;
+  text-align: center;
+}
+.gif-btn {
+  color: #000000;
 }
